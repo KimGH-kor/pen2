@@ -7,10 +7,12 @@
 </head>
 
 <body>
+    <div class="fold">
     <span class="pen">형광팬 효과</span>
     <div class="content">
         안녕하세요 <span class="highlight"><span>코딩하는 남자</span></span> 경환입니다.
     </div>
+</div>
 </body>
 
 </html>
@@ -22,10 +24,19 @@
         margin: 0%;
         padding: 0%;
     }
-
-    body {
-        text-align: center;
+    html{
+        height: 100%;
     }
+body{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.fold{
+    text-align: center;
+}
+
 
     /* 앞에 넣는게 before 뒤에 넣는게 after */
     .pen {}
